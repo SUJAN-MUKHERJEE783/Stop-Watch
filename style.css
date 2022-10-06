@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&display=swap');
+body{
+    /* padding: 20mm; */
+    background-color: cyan;
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.up{
+    height: 50px;
+    display:block ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width:fit-content;
+    
+}
+.upbtn{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: yellow;
+    color: black;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.box{
+    height: 150px;
+    width: 400px;
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 100px;
+    
+    /* word-spacing: 0px; */   
+}
+
+.dis{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.disp{
+    height: 50px;
+    width: 150px;
+    border-radius: 100px;
+    position: absolute;
+    z-index: 2;
+    font-family: 'Alkalami', serif;
+    font-size: 40px;
+    padding-top: 10px;
+    text-align: right;
+    padding-right: 30px;
+    margin-left: 100px;
+    background-color:rgb(96, 221, 160);
+    margin: 2px solid red;
+}
+.disp1{
+    height: 50px;
+    width: 100px;
+    position: absolute;
+    z-index: 3;
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'Alkalami', serif;
+    font-size: 40px;
+    background-color:rgb(96, 221, 160);
+    margin: 1px solid red;   
+}
+.disp2{
+    height: 50px;
+    width: 250px;
+    border-radius: 100px;
+    position: absolute;
+    z-index: 1;
+    font-family: 'Alkalami', serif;
+    font-size: 40px;
+    padding-left: 30px;
+    padding-top: 10px;
+    background-color:rgb(96, 221, 160);
+    margin: 1px solid red;
+}
+
+.switch{
+    padding: 70px;
+}
+.button{
+    height: 40px;
+    width: 60px;
+    margin: 10px;
+    border-radius: 50%;
+    background-image: linear-gradient( rgba(255, 0, 0, 0.5),rgba(67, 40, 157, 0.5),rgba(171, 217, 102, 0.5));
+    text-shadow: 10px;
+    box-shadow: 15px;
+    cursor: pointer;
+    
+}
